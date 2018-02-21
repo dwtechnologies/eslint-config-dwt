@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-dwt",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/dwtechnologies/eslint-config-dwt.git",
+  "author": "Toby Ryuk <toby.ryuk@danielwellington.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
