@@ -1,17 +1,32 @@
 eslint-config-dwt
 =============
 
-DWT lint config that extends standard.
+DWT lint config that extends [Standard](https://standardjs.com/).
 
 ## Installation
+### yarn
+``` sh
+yarn add eslint-config-dwt --dev
+```
 
 ### npm
-
 ``` sh
-npm install eslint-config-dwt
+npm install --save-dev eslint-config-dwt
 ```
-### yarn
 
+## Usage
+Shareable configs are designed to work with the `extends` feature of `.eslintrc` files. You can learn more about [Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs) on the official ESLint website.
+
+To use the configuration in an empty project, first install it:
 ``` sh
-yarn add eslint-config-dwt
+yarn add eslint eslint-config-dwt --dev
+# or...
+npm install --save-dev eslint eslint-config-dwt
+```
+
+Then, add this to your `.eslintrc` config
+```
+{
+  "extends": "dwt"
+}
 ```
