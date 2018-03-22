@@ -30,3 +30,8 @@ Then, add this to your `.eslintrc` config
   "extends": "dwt"
 }
 ```
+
+Lastly, to ease the use of `eslint`, add this to the `scripts` section of your `package.json`
+```
+"lint": "eslint '**/*.js' --ignore-path .gitignore"
+```
