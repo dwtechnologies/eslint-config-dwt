@@ -20,6 +20,7 @@ module.exports = {
     'prefer-const': 2,
     'prefer-spread': 2,
     'prefer-template': 2,
-    'require-await': 2
+    'require-await': 2,
+    'no-await-in-loop': 2
   }
 }
