@@ -4,7 +4,7 @@ module.exports = {
     'es6': true
   },
   parserOptions: {
-    'ecmaVersion': 2017
+    'ecmaVersion': 9
   },
   rules: {
     'array-callback-return': [2, { allowImplicit: true }],
